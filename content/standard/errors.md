@@ -15,7 +15,7 @@ Any non 200 response body should follow a standard format. This should be consis
 In the following examples:
 
 * `type` is both the identifier for the specific error (URI) and a link to human readable documentation about the problem.
-* `type-code` is the last path segement or fragment of the `type` for easy usage and propagation in code.
+* `code` is the fragment of the `type` for easy usage and propagation in code.
 * `title` is a short indication of what went wrong 
 * `detail` provides more information about the error
 * `instance` is the Nexmo trace ID (previously returned as a header)
